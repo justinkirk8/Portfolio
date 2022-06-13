@@ -27,17 +27,17 @@ h5 {
 }
 
 .btn-primary {
-    background-color: #66FCF1;
-    border-color: #66FCF1;
-    color: #1f2833;
+    background-color: #a24549;
+    border-color: #a24549;
+    color: rgba(255, 255, 255, 0.7);;
     padding: 5px 30px;
 }
 
 .btn-primary:hover,
 .btn-primary:active, 
 .btn-primary:focus {
-    background-color: #66FCF1 !important;
-    border-color: #66FCF1 !important;
+    background-color: #a24549 !important;
+    border-color: #a24549 !important;
 }
 
 .title-underline{
@@ -126,8 +126,18 @@ h5 {
 }
 
 
+
 .carousel {
     margin: auto
+}
+
+.fragment-three h5 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fragment-three p {
+    font-size: 20px;
 }
 
 .fragment-three .carousel-container {
@@ -137,11 +147,38 @@ h5 {
 }
 
 .fragment-three .carousel-caption {
-    color: #C5C6C7
+    color: #0b0c10;
+    background: rgba(255,255,255,0.7);
 }
 
 .fragment-three .custom-indicator {
-    background-color: #66FCF1 !important;
+    background-color: #a24549 !important;
+}
+
+.fragment-three a {
+    color: #c5c6c7
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 40px;
+  font-weight: 600;
+  color: #a24549;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 40px;
+  font-weight: 600;
+  color: #a24549;
 }
 
 .fragment-four {
@@ -173,19 +210,23 @@ h5 {
     margin: 10px;
     text-align: center;
     min-width: 70%;
-    background: rgba(197,198,199,0.7)
+    background: rgba(	162, 69, 73,0.7)
 }
 
 .fragment-four .tech {
     padding: 0.8em;
-    color: rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid #c5c6c7;
+    color: rgba(255, 255, 255, 0.7);
+    border-top: 1px solid rgba(	162, 69, 73,0.2);
+    border-bottom: 1px solid rgba(	162, 69, 73,0.2);
+    border-right: 1px solid rgba(	162, 69, 73,0.2);
+    border-left: 1px solid rgba(	162, 69, 73,0.2);
     font-size: 1.2rem;
+    font-weight: 500;
     margin: 0;
 }
 .fragment-four .tech:hover {
     transition-duration: 0.3s;
-    background: rgba(197,198,199,1)
+    background: rgba(	162, 69, 73,1)
 }
 
 
